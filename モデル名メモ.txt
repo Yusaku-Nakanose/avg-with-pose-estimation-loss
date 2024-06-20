@@ -1,0 +1,18 @@
+ディレクトリ名
+car_gan：car_ganとtslとtseを含む
+    tsl：pix2pix_con_full_add
+    tse：pix2pix_con_full
+tslandtse：tslとtseの統合モデル
+
+pe_gan：car_ganに姿勢推定損失を追加したモデル
+
+pe_tslandtse：tslとtseの統合モデルに姿勢推定損失を追加したモデル
+
+pe_tsltse：tslとtseに姿勢推定損失を追加したモデル
+
+
+
+スクリプトファイル・学習&テスト時でのモデルを示す命名規則
+00：CAR-GAN
+3d：TSL, TSE
+6d：TSLとTSEの統合モデル

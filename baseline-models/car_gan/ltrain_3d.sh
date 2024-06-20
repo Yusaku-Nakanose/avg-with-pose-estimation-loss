@@ -1,0 +1,3 @@
+#!/usr/bin/env bash satoshi
+python3 train.py --data_dir ../../../../mnt/othel-public/sig4share/students/M2/nakagawa/m1/data_URMP/Sub-URMP/car_gan/train_v_02_3d_data_1300.txt --ngf 64 --ndf 2 --batch_size 4 --gan_mode vanilla --model pix2pix_con_full_add --name 0824_1 --checkpoints_dir ../../../../mnt/othel-public/sig4share/students/M2/nakagawa/m1/data_URMP/Sub-URMP/car_gan/res --gpu_ids 1 --dataset_mode spectram --no_flip --verbose --norm batch  --save_epoch_freq 50 --niter 100 
+#--netG1 unet_128_3d

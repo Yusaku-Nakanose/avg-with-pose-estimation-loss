@@ -1,0 +1,6 @@
+matplotlib 
+mido 
+music21 
+pretty-midi
+pypianoroll 
+tqdm 
