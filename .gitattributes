@@ -1,3 +1,5 @@
 baseline-models/tslandtse/model/body_pose_model.pth filter=lfs diff=lfs merge=lfs -text
 proposed-models/pe_gan/model/hand_pose_model.pth filter=lfs diff=lfs merge=lfs -text
 *.pth filter=lfs diff=lfs merge=lfs -text
+proposed-models/pe_tslandtse/model/body_pose_model.pth filter=lfs diff=lfs merge=lfs -text
+proposed-models/pe_tsltse/model/hand_pose_model.pth filter=lfs diff=lfs merge=lfs -text
